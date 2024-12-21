@@ -18,3 +18,15 @@ public class Main {
     myObj.myPublicMethod(); // Call the public method on the object
   }
 }
+#feature201 changes by ethan developer on Dec21st
+public class Main {
+  public void fullThrottle() {
+    System.out.println("The car is going as fast as it can!");
+  }
+
+  public void speed(int maxSpeed) {
+    System.out.println("Max speed is: " + maxSpeed);
+  }
+}
+#end of feature201code
+

@@ -29,4 +29,23 @@ public class Main {
   }
 }
 #end of feature201code
+#Adding Webhook details here
+  public class MethodExample {
 
+    // Method to add two numbers
+    public int addNumbers(int a, int b) {
+        int sum = a + b;
+        return sum;
+    }
+
+    public static void main(String[] args) {
+        // Creating an object of the class
+        MethodExample obj = new MethodExample();
+
+        // Calling the method and storing the result
+        int result = obj.addNumbers(5, 7);
+
+        // Printing the result
+        System.out.println("The sum is: " + result);
+    }
+}
